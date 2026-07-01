@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6g0029/T/v1
+canonical_location: https://kanripo.org/bkk/KR6g0029/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 摩訶摩耶經
+  identifiers:
+    krp: KR6g0029
+    cbeta: T12n0383
+    cbeta_old_id: T12n0383
+    authorityid: CA0002275
+    json_key: T0383
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0383.xml
+    old_id: T12n0383
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0029_000-T.yaml, hash: 'sha256:4d34402c82a591733ff806d51ff03bb0ca699273cc73cef1066542217e17023a'}
+  - {seq: 1, filename: KR6g0029_001-T.yaml, hash: 'sha256:4f20c5fef6fcf136a9d99b3bdaa8588bcf7b538f56c3f2532e51654fc092a8ca'}
+  - {seq: 2, filename: KR6g0029_002-T.yaml, hash: 'sha256:efb3025a93ac7ee059acaf9d205ba7d65af64acadbc214f9ae9b4dbc307245e9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6g0029_000-T.markers.yaml, hash: 'sha256:f274d8376ce0b1b3277a2b6212fcd019e26688882cee925c642adea34158f09b'}
+  - {seq: 1, role: markers, filename: assets/KR6g0029_001-T.markers.yaml, hash: 'sha256:f8ac50c3101adbbf1aa7c7dd14bdd536fc1b8a24e85da58d5d68d512fbc7c8fb'}
+  - {seq: 2, role: markers, filename: assets/KR6g0029_002-T.markers.yaml, hash: 'sha256:82b39f15a807b6b43fafd47b1814009daa8ea32783294b3f00b01b6afb21f9ac'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0029_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6490
+  label: 摩訶摩耶經卷上一名佛昇忉利天為母說法
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6g0029_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6566
+  label: 摩訶摩耶經卷下一名佛昇忉利天為母說法
+  type: juan
+  level: 1
+hash: sha256:ab45673222ae768e84ade3284bea1aaa3dfd3f294a1a2d86d0ee958026ae9b1d
